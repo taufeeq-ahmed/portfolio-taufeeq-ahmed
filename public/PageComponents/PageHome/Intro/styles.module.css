@@ -1,0 +1,42 @@
+.intro{
+    padding: 12px;
+    width: 40%;
+    padding-top: 48px;
+    .name{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    .position{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+
+    .section_details{
+        margin-top: 56px;
+
+
+        .section{
+            display: flex;
+            align-items: center;
+            margin-top: 16px;
+            gap: 12px;
+
+            .line{
+                width: 40px;
+                height: 1px;
+                background-color: #000;
+            }
+
+            .active_line{
+                width: 80px;
+            }
+        }
+    }
+}
