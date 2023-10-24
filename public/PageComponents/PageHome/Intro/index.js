@@ -23,9 +23,9 @@ function Intro() {
 	return (
 		<div className={styles.intro}>
 			<div className={styles.basic_details}>
-				<h1 className={styles.name}>Taufeeq Ahmed</h1>
-				<h2 className={styles.position}>Software Development Engineer - 1  @cogoport </h2>
-				<p className={styles.description}>I build awesome Pieces of Software for awesome companies</p>
+				<h1 className={styles.name}>Brittany Chiang</h1>
+				<h2 className={styles.position}>Lead Engineer at Upstatement</h2>
+				<p className={styles.description}>I build accessible, inclusive products and digital experiences for the web.</p>
 			</div>
 
 			<div className={styles.section_details}>

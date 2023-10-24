@@ -1,6 +1,25 @@
 .landing_page{
     .landing_page_content{
         max-width: 1200px;
+        height: 100vh;;
         margin: auto;
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+
+        .intro_section_container{
+            width: 40%;
+            height: 100%;
+        }
+
+        .right_content{
+            width: 60%;
+            padding: 54px;
+            height: 100%;
+            overflow: scroll;
+        }
+        .right_content::-webkit-scrollbar {
+            display:none;
+        }
     }
 }
